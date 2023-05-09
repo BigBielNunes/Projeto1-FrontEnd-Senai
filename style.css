@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(78, 16, 78);
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(51, 4, 51);
+    height: 235px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    
+}
+a{
+    text-decoration: none;
+    color: bisque;
+}
+.link-home{
+    padding: 50px;
+}
+.link-home li{
+    font-size: 25px;
+}
+.icons-home{
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+}
+.texto-home h1{
+    font-size: 70px;
+    text-align: center;
+    color: bisque;
+    margin-top: 20px;
+}
+.texto-home p{
+    margin-top: 10px;
+}
+.texto-home{
+    font-size: 30px;
+    text-align: center;
+    color: bisque;
+}
+.texto-acai{
+    font-size: 30px;
+    text-align: center;
+    color: bisque;
+}
+.texto-acai h1{
+    font-size: 80px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.imagem-home-main{
+    width: 330px;
+    height: 370px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.texto-home-main{
+    height: 150px;
+    width: 330px;
+}
+.texto-home-main h4{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+    color: bisque;
+}
+.texto-home-main p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    color: bisque;
+}
+.img-home-1{
+    background-image: url('img/mm-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-2{
+    background-image: url('img/fini-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-3{
+    background-image: url('img/granola-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-4{
+    background-image: url('img/LEITE-CONDENSAdo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-5{
+    background-image: url('img/leite-ninho-2-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-6{
+    background-image: url('img/pacoquita.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-7{
+    background-image: url('img/açai200-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-8{
+    background-image: url('img/açai500-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-9{
+    background-image: url('img/açai_700-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-10{
+    background-image: url('img/açaiTigela-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-11{
+    background-image: url('img/açai_pote-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-12{
+    background-image: url('img/barca-2-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-13{
+    background-image: url('img/copoCupuaçi-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-14{
+    background-image: url('img/copoCupuaçi-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-15{
+    background-image: url('img/copoCupuaçi-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-16{
+    background-image: url('img/copo-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-17{
+    background-image: url('img/tigela-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-home-18{
+    background-image: url('img/tigela-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer{
+    color: bisque;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(51, 4, 51);
+    padding-top: 50px;
+}
+.imagem-sobre-mim{
+    width: 1000px;
+    height: 700px;
+}
+.img-mr-robot{
+    background-image: url('img/mrRobot.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sobre-mim-main{
+    display: flex;
+}
+.texto-sobre-mim{
+    color: bisque;
+}
+.texto-sobre-mim h1{
+    font-size: 70px;
+    text-align: center;
+}
+.texto-sobre-mim p{
+    font-size: 20px;
+    text-align: center;
+}
+.select-main{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.butao-comprar{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.butao{
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+}
+.div-4 p{
+    padding-bottom: 50px;
+}
